@@ -1,0 +1,47 @@
+<!doctype html>
+<html id="page">
+
+	<head>
+		<meta charset="UTF-8)" />
+		<meta name="description" content="booking in a restraunt" />
+		<title>Booking </title>
+		<link rel="stylesheet" href="Css folder/second-page-style.css" />
+	</head>
+	<body> 
+		<div id = "head">
+		<p background-color="white" align="center" style="font-size:50px" >Booking menu</p>
+		</div>
+		<div id="Username">
+			<label for="username">Your username</label>
+			<input type="text" id="name" name="visitor_name">
+		</div>
+		<br>
+		<div id="booking">
+			<label for="number">Number of persons</label>
+			<input type="number" id="number" name="number_of_persons">
+		</div><br>
+		<div id="booking">
+			<label for="appt">Choose a time for your visit:</label>
+			<input type="time" id="appt" name="appt" min="12:00" max="02:00" required>
+		</div>
+		<br>
+		<div id="data">
+			<label for="Date">Date</label>
+			<input type="date" id="Date" name="Date" required>
+		</div>
+		<br>
+		<div id="card">
+			<label for="payment-selection">Select payment way</label>
+			<select id="payment-selection" name="payment_selection" required>
+				<option value="">Choose a payment way from the list </option>
+				<option value="MasterCard">MasterCard</option>
+				<option value="PayPal">PayPal</option>
+				<option value="Visa">Visa</option>
+				<option value="Cash">Cash</option>
+			</select>
+		</div>
+ <a href="" id="down"> Submit </a>
+ <br />
+ <a href="home.html" id="down"> Main menu </a>	
+	</body>
+</html>

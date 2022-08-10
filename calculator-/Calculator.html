@@ -1,0 +1,85 @@
+<!doctype html>
+<html id="page">
+
+	<head>
+		<meta charset="UTF-8)" />
+		<meta name="description" content="calculator" />
+		<title>Calculator </title>
+		<link rel="stylesheet" href="Css folder/Calc_style.css" />
+	</head>
+	<body> 
+	
+	<div class="main">
+		<table>
+		<tr>
+			<td>
+				<input type="text" class="txt" id="txt" name="txt" disabled>
+			</td>
+		</tr>
+		</table>
+		<table>
+			<tr>
+				
+				<td>
+					<input type="button" class="table" id="1" onclick="in_Num('1')" value="1">
+				</td>
+				<td>
+					<input type="button" class="table" id="2" onclick="in_Num('2')" value="2">
+				</td>
+				<td>
+					<input type="button" class="table" id="3" onclick="in_Num('3')" value="3">
+				</td>
+				<td>
+					<input type="button" class="table" onclick="in_op('+')" value="+">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="table" id="4" onclick="in_Num('4')" value="4">
+				</td>
+				<td>
+					<input type="button" class="table" id="5" onclick="in_Num('5')" value="5">
+				</td>
+				<td>
+					<input type="button" class="table" id="6" onclick="in_Num('6')" value="6">
+				</td>
+				<td>
+					<input type="button" class="table" id="-" onclick="in_op('-')" value="-">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="table" id="7" onclick="in_Num('7')" value="7">
+				</td>
+				<td>
+					<input type="button" class="table" id="8" onclick="in_Num('8')" value="8">
+				</td>
+				<td>
+					<input type="button" class="table" id="9" onclick="in_Num('9')" value="9">
+				</td>
+				<td>
+					<input type="button" class="table" id="*" onclick="in_op('*')" value="*">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="table" id="/" onclick="in_op('/')" value="/">
+				</td>
+				<td>
+					<input type="button" class="table" id="0" onclick="in_Num('0')" value="0">
+				</td>
+				<td>
+					<input type="button" class="table" id="." onclick="in_op('.')" value=".">
+				</td>
+				<td>
+					<input type="button" class="table" onclick="equal()" value="=">
+				</td>
+			</tr>
+			<input type="button" class="clear_all" onclick="clearing()" value="clear all">
+				
+		</table>
+		
+	</div>
+	<script src="JS folder/Calc.js" ></script>
+	</body>
+</html>

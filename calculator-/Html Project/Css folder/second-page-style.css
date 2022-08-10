@@ -1,0 +1,59 @@
+#page {
+	background-image: url("../images/second-page.jpg"); 
+	background-repeat:no-repeat;
+	background-size: 1600px 800px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: green;
+}
+
+#head{
+	 background-color: #f0dedeba;
+	 
+}
+
+#booking{
+	margin-left:60px;
+}
+
+#data{
+	margin-left:-100px;
+}
+
+#Username{
+	margin-left:20px;
+}
+
+#card{
+	margin-left:130px;
+}
+#down{
+	background-color:#d1c9bc;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	text-align:center;
+	padding:3px 15px;
+}
+
+body{
+	position:relative;
+	text-align:center;
+	top:100px;
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+}

@@ -1,0 +1,55 @@
+#page {
+	background-image: url("../images/first-page.jpg"); 
+	background-repeat:no-repeat;
+	background-size: 2350px 1100px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: green;
+}
+
+#up-link{
+	text-decoration: none;
+}
+#head{
+	 background-color: #000000ba;
+	 text-align: right;
+	 word-spacing: 10px;
+	 padding: 14px 20px;
+	 text-decoration: none;
+	 font-size: 30px;
+}
+
+#middle-text1{
+	color: white;
+	font-size:70px;
+	text-align: center;
+}
+
+#middle-text2{
+	color: white;
+	font-size:70px;
+	text-align: center;
+	font-style: oblique;
+}
+
+#middle{
+	font-size: 60px;
+	text-align: center;
+}
+#down-link1{
+	background-color: #906d3b;
+	text-decoration: none;
+}
+#down-link2{
+	text-decoration: none;
+	background-color: #d1c9bc;
+}

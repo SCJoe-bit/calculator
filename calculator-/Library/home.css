@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  zoom: 85%;
+}
+.main {
+  display: flex;
+  height: 100vh;
+}
+.left-part {
+  width: 57%;
+}
+.right-part {
+  width: 43%;
+}
+.right-part img {
+  width: 101%; 
+}
+
+#up-link:hover {
+  color: #f37004; 
+}
+#sign:hover {
+  color: #db920b; 
+}
+.buttons a:hover{
+  background-color: #db920b;
+}
+.buttons #special:hover{
+  background-color: #db920b;
+}
+
+#head {
+  text-align: left;
+  margin-top: 30px;
+  word-spacing: 5px;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 125%;
+}
+#up-link{
+  padding: 20px 10px 10px 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+	text-decoration: none;
+  color: black;
+}
+#sign{
+  padding: 20px 10px 10px 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+	text-decoration: none;
+  color: #03989e;
+}
+
+.main-part {
+  margin-left: 20px;
+}
+.main-part .slogan {
+  margin-top: 260px;
+}
+.main-part h2 {
+  font-size: 900%;
+  color: #1a181a;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+.buttons a {
+  text-decoration: none;
+  background-color: #1a181a;
+  color: white;
+  padding: 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 275%;
+}
+.buttons #special {
+  background-color: #03989e;
+}
+
+
+
+
